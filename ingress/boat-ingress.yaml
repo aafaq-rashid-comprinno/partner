@@ -19,7 +19,7 @@ spec:
       paths:
       - backend:
           service:
-            name: webapp
+            name: admin-webapp
             port:
               number: 80
         path: /
