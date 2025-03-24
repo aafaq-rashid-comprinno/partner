@@ -13,7 +13,7 @@ metadata:
     app: lightmetrics
     component: ingress
     env: preprod
-    id: 559e66d5-5252-45f4-919d-fd66bce95ece
+    id: 2464f632-2843-4674-bc8a-bfbaceeb4ad3
     owner: aafaq
     partner: lightmetrics
   name: lightmetrics
