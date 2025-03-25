@@ -13,7 +13,7 @@ metadata:
     app: example
     component: ingress
     env: preprod
-    id: c478708c-e5bd-4544-a8c4-8bd242863bff
+    id: aea98e6f-bc96-4bb5-8708-38074ae65966
     owner: aafaq
     partner: example
   name: example
@@ -21,7 +21,7 @@ metadata:
 spec:
   ingressClassName: alb-common
   rules:
-  - host: example.preprod.tevi.co
+  - host: example.devopsnerds.com
     http:
       paths:
       - backend:
