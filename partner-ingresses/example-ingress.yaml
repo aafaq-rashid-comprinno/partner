@@ -12,7 +12,7 @@ metadata:
   labels:
     app: example
     component: ingress
-    id: c468a637-5684-4d00-8c18-53b4d1e4fba0
+    id: ee975641-6316-449a-a544-2f1813a3110c
     partner: example
   name: example
   namespace: tevico
