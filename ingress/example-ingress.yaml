@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   annotations:
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:601311288054:certificate/12cb7b23-b97a-42c1-a4f9-3bda890a95ac
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:601311288054:certificate/547c9bc8-e2ad-4dc5-a0a2-2682d7ad34c8
     alb.ingress.kubernetes.io/healthcheck-path: /
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS": 443}]'
     alb.ingress.kubernetes.io/load-balancer-attributes: deletion_protection.enabled=false
@@ -12,14 +12,14 @@ metadata:
   labels:
     app: example
     component: ingress
-    id: ce656243-b100-4514-8810-9b830eea1426
+    id: fdbe49a3-d2d0-4d63-addf-ee0a9a98cda8
     partner: example
   name: example
   namespace: tevico
 spec:
   ingressClassName: alb-common
   rules:
-  - host: example.devopsnerds.com
+  - host: example.preprod.tevi.co
     http:
       paths:
       - backend:
