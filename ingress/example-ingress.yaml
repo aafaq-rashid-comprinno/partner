@@ -12,9 +12,7 @@ metadata:
   labels:
     app: example
     component: ingress
-    env: preprod
-    id: aea98e6f-bc96-4bb5-8708-38074ae65966
-    owner: aafaq
+    id: d1a3bb8c-fce3-41bd-9cc7-232ecbc6c93b
     partner: example
   name: example
   namespace: tevico
