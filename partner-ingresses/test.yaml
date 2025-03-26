@@ -3,9 +3,9 @@ kind: Service
 metadata:
   annotations: null
   labels:
-    app: webapp
-    argocd.argoproj.io/instance: argo-webapp
-  name: webapp
+    app: test
+    argocd.argoproj.io/instance: argo-test
+  name: test
   namespace: tevico
 spec:
   ipFamilies:
